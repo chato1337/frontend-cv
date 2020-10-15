@@ -1,0 +1,18 @@
+@import "./vars.scss";
+
+.Main {
+	background-color: $white-color;
+	margin: 0 6rem 0 6rem;
+}
+
+@media screen and (max-width: 768px) {
+	.Main {
+		margin: 0 2rem 0 2rem;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.Main {
+		margin: 0;
+	}
+}

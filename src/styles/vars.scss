@@ -1,0 +1,29 @@
+//color palette
+$primary-color: #5c8e75;
+$dark-color: #0c1711;
+$variant-color: #5f605f;
+$gray-color: #9fa0a0;
+$light-color: #dee0df;
+$white-color: white;
+
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@700&display=swap");
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: $dark-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Oswald", sans-serif;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	font-size: 16px;
+}
