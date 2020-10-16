@@ -1,12 +1,35 @@
 @import "./vars.scss";
 
 .App {
-	// border: 1px solid red;
 	background-color: $gray-color;
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	padding-top: 3rem;
+	padding-top: 2rem;
+}
+
+.Content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	text-align: left;
+}
+
+.Content__item {
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.divider {
+	border-right: 4px solid $dark-color;
+}
+
+.content-item {
+	h3 {
+		margin-bottom: 0.5rem;
+	}
+	p {
+		margin-bottom: 0.8rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -18,5 +41,13 @@
 @media screen and (max-width: 375px) {
 	.App {
 		padding-top: 0;
+	}
+
+	.Content {
+		display: block;
+	}
+
+	.divider {
+		border-right: 0;
 	}
 }
