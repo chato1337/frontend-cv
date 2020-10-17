@@ -1,0 +1,7 @@
+@import "../../styles/vars.scss";
+
+.Education__content {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: auto;
+}
