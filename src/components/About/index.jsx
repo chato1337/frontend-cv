@@ -6,10 +6,10 @@ export const About = () => {
 		<div className="About content-item">
 			<h3>ABOUT ME</h3>
 			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti,
-				nihil. Culpa, quis ducimus! Odio deserunt illo consectetur, omnis
-				aperiam nostrum obcaecati fugiat incidunt iusto veritatis velit nisi
-				voluptatibus beatae provident!
+				Passionate about developing, teaching, learning and creating computer
+				tools that contribute to the construction of a better society.
+				Javascript developer of the MERN stack, with knowledge of modern
+				databases and frameworks.
 			</p>
 		</div>
 	);

@@ -1,5 +1,10 @@
 @import "../../styles/vars.scss";
 
-.Work {
-	// border-right: 3px solid $dark-color;
+.Work__content {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	grid-template-rows: auto;
+	.description {
+		margin-bottom: 0.8rem;
+	}
 }
