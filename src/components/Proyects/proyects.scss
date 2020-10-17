@@ -1,0 +1,19 @@
+.Proyects__items {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	div {
+		margin: 5px 8px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.Proyects__items {
+		display: block;
+	}
+}
+
+@media print {
+	.links {
+		font-size: 8px;
+	}
+}

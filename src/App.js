@@ -6,18 +6,22 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Education from "./components/Education";
 import Language from "./components/Language";
+import Proyects from "./components/Proyects";
+import PrintButton from "./components/PrintButton";
 import "./styles/vars.scss";
 import "./styles/styles.scss";
 
 function App() {
 	return (
 		<div className="App">
+			<PrintButton />
 			<Main>
 				<Header />
 				<div className="Content">
 					<div className="Content__item divider">
 						<About />
 						<Work />
+						<Proyects />
 					</div>
 					<div className="Content__item">
 						<Skills />

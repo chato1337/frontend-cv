@@ -33,6 +33,17 @@ const Work = () => {
 						operator of the agreement.
 					</p>
 				</div>
+				<div className="year">
+					<strong>2015</strong>
+				</div>
+				<div className="description">
+					<p>Population database administrator</p>
+					<strong>ACIN</strong>
+					<p>
+						Manage, purify and update the population database of the north of
+						Cauca
+					</p>
+				</div>
 			</div>
 		</div>
 	);

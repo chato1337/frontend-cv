@@ -68,3 +68,10 @@
 		}
 	}
 }
+
+@media print {
+	.Header {
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+}
