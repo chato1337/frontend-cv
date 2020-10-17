@@ -1,12 +1,21 @@
 import React from "react";
+import Circle from "react-circle";
+import "./language.scss";
 
 const Language = () => {
 	return (
 		<div className="Language content-item">
 			<h3>LANGUAGE</h3>
-			<p>spanish</p>
-			<p>english</p>
-			<p>french</p>
+			<div className="Language__content">
+				<div className="Language__item">
+					<p>Spanish</p>
+					<Circle progress={98} />
+				</div>
+				<div className="Language__item">
+					<p>English</p>
+					<Circle progress={45} />
+				</div>
+			</div>
 		</div>
 	);
 };

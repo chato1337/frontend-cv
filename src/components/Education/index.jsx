@@ -10,6 +10,14 @@ const Education = () => {
 					<strong>2020</strong>
 				</div>
 				<div className="description">
+					<p>Fullstack Javascript developer</p>
+
+					<strong>PLATZI MASTERS</strong>
+				</div>
+				<div className="year">
+					<strong>2020</strong>
+				</div>
+				<div className="description">
 					<p>
 						systems engineering <small>(on curse)</small>
 					</p>
