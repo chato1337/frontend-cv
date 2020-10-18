@@ -57,6 +57,18 @@
 	}
 }
 
+@media screen and (max-width: 425px) {
+	.Header {
+		display: block;
+		&__image {
+			margin: 8px auto;
+		}
+		&__info {
+			margin-left: 25%;
+		}
+	}
+}
+
 @media screen and (max-width: 375px) {
 	.Header {
 		display: block;

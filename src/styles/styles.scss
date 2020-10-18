@@ -38,6 +38,20 @@
 	}
 }
 
+@media screen and (max-width: 425px) {
+	.App {
+		padding-top: 0;
+	}
+
+	.Content {
+		display: block;
+	}
+
+	.divider {
+		border-right: 0;
+	}
+}
+
 @media screen and (max-width: 375px) {
 	.App {
 		padding-top: 0;
