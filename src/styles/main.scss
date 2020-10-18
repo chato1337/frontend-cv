@@ -5,6 +5,11 @@
 	margin: 0 6rem 0 6rem;
 }
 
+.Dark {
+	background-color: $dark-color;
+	color: $light-color;
+}
+
 @media screen and (max-width: 768px) {
 	.Main {
 		margin: 0 2rem 0 2rem;

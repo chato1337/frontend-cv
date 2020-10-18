@@ -3,9 +3,10 @@
 .App {
 	background-color: $gray-color;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	text-align: center;
 	padding-top: 2rem;
+	padding-bottom: 1rem;
 }
 
 .Content {
@@ -54,5 +55,6 @@
 @media print {
 	.App {
 		padding-top: 0;
+		padding-bottom: 0;
 	}
 }
