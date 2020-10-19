@@ -1,3 +1,50 @@
+## Curriculum vitae from Web Developer
+
+> Check my CV in [gh-pages](https://chato1337.github.io/frontend-cv/).
+
+## Introduction
+
+For any field of work it is essential to have a curriculum vitae, which allows us to publicize our skills, strengths and experience. The following project has two fundamental purposes, the first to fulfill its informative function for the labor field and the second to make known in a practical way the knowledge in software development technologies.
+
+Continuing with the second point, it is intended to use a stack of modern and scalable technologies which have the support of the community and in most cases open source.
+
+## Frontend technologies:
+
+React Js: it is one of the most powerful and popular libraries for frontend development that is found today.
+
+Sass: One of the most widely used css preprocessors today
+
+## Other technologies used:
+
+Vercel: ideal for the deployment of applications in javascript
+
+Git and Github: for hosting the repository as well as version control and management
+
+Dribble: as a source of inspiration for the development of the cv
+
+## Structure
+
+For the modeling of the data that will be brought from the backend and shown in frontend with react, sections are thought which represent a set of data shown below:
+
+- initial information: which will include the full name, photo, phone number, email, location
+- about me: a text paragraph with information relevant to the CV owner
+- Work experience: a list with year title and respective description
+- skills: a list of qualifying skills from 0 to 5 in total
+- education: a list with year and studies carried out or in progress to date
+- languages: a small graph showing the capacity in percentage for each language
+
+## Conclusions:
+
+the development of this small application has allowed me to put into practice my acquired knowledge and to refine through documentation the theoretical handling of it
+
+## References:
+
+- Original design on [dribble](https://dribbble.com/shots/14335045-CV-Resume-03/attachments/5997489?mode=media)
+- [Create React App](https://www.notion.so/TIPS-PARA-UNA-DOCUMENTACI-N-ba669538e53b403597e9388163118bc6#1412b5f45cc2424e8c10b267facd8f7f)
+- circular percentage with [react-circle](https://www.npmjs.com/package/react-circle)
+
+## Appends
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

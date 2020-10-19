@@ -12,7 +12,9 @@ const Work = () => {
 				<div className="description">
 					<p>computer consultant</p>
 					<strong>CRIC - Colombia</strong>
-					<p>High school teacher in the area of computer science</p>
+					<p>
+						advise the construction of a project with the national government
+					</p>
 				</div>
 				<div className="year">
 					<strong>2019</strong>
