@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Main from "./pages/Main";
+import { Header } from "./components/Header";
+import { About } from "./components/About";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
+import Education from "./components/Education";
+import Language from "./components/Language";
+import Proyects from "./components/Proyects";
+import PrintButton from "./components/PrintButton";
+import "./styles/vars.scss";
+import "./styles/styles.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<PrintButton />
+			<Main>
+				<Header />
+				<div className="Content">
+					<div className="Content__item divider">
+						<About />
+						<Work />
+						<Proyects />
+					</div>
+					<div className="Content__item">
+						<Skills />
+						<Education />
+						<Language />
+					</div>
+				</div>
+			</Main>
+		</div>
+	);
 }
 
 export default App;

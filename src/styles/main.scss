@@ -1,0 +1,38 @@
+@import "./vars.scss";
+
+.Main {
+	background-color: $white-color;
+	margin: 0 6rem 0 6rem;
+}
+
+.Dark {
+	background-color: $dark-color;
+	color: $light-color;
+}
+
+@media screen and (max-width: 768px) {
+	.Main {
+		margin: 0 2rem 0 2rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.Main {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.Main {
+		margin: 0;
+	}
+}
+
+@media print {
+	.Main {
+		margin: 0;
+		p {
+			font-size: 12px;
+		}
+	}
+}

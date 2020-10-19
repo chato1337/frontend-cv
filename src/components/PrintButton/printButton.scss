@@ -1,0 +1,12 @@
+.Print-button {
+	float: right;
+	position: relative;
+	top: 0px;
+	right: 100px;
+}
+
+@media print {
+	.Print-button {
+		display: none;
+	}
+}

@@ -1,0 +1,89 @@
+@import "../../styles/vars.scss";
+
+.Header {
+	&__name {
+		h1 {
+			font-size: 2.5rem;
+		}
+	}
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	align-items: center;
+	border-top: 25px solid $primary-color;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	&__image {
+		height: 160px;
+		width: 160px;
+		justify-self: center;
+		img {
+			border-radius: 50%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+.Header__info {
+	&-item {
+		display: flex;
+		align-items: center;
+		// justify-content: center;
+		padding-top: 8px;
+		.header-icon {
+			background-color: $primary-color;
+			color: $white-color;
+			width: 30px;
+			height: 30px;
+			margin-right: 10px;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.Header {
+		// display: block;
+		text-align: center;
+		&__name {
+			h1 {
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.Header {
+		display: block;
+		&__image {
+			margin: 8px auto;
+		}
+		&__info {
+			margin-left: 25%;
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.Header {
+		display: block;
+		&__image {
+			margin: 8px auto;
+		}
+		&__info {
+			margin-left: 25%;
+		}
+	}
+}
+
+@media print {
+	.Header {
+		padding-top: 5px;
+		padding-bottom: 2px;
+	}
+}
