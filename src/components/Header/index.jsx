@@ -2,6 +2,7 @@ import React from "react";
 import { FiPhoneIncoming } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdGpsFixed } from "react-icons/md";
+import photoCV from "../../assets/img/profile.jpeg";
 import "./header.scss";
 
 export const Header = () => {
@@ -12,10 +13,7 @@ export const Header = () => {
 				<p>FULLSTACK WEB DEVELOPER</p>
 			</div>
 			<div className="Header__image">
-				<img
-					src="https://ikwesx.com/wp-content/uploads/2020/08/IMG_20190704_114637_179.jpg"
-					alt="profile image"
-				/>
+				<img src={photoCV} alt="profile image" />
 			</div>
 			<div className="Header__info">
 				<div className="Header__info-item">

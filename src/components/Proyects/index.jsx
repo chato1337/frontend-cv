@@ -8,6 +8,8 @@ const Proyects = () => {
 			<div className="Proyects__items">
 				<div>
 					<strong>IdealBuy</strong>
+					<br />
+					<i>Smart buy app</i>
 					<p>Frontend Developer</p>
 					<p>React, PostgreSql, Django</p>
 					<a className="links" href="https://idealbuy.vercel.app/">
@@ -16,6 +18,8 @@ const Proyects = () => {
 				</div>
 				<div>
 					<strong>Pandar</strong>
+					<br />
+					<i>Smart travel app</i>
 					<p>Frontend Developer</p>
 					<p>NextJS, MongoDB, ReactHooks</p>
 					<a className="links" href="https://pandar.vercel.app/">
