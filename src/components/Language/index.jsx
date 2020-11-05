@@ -8,11 +8,11 @@ const Language = () => {
 			<h3>LANGUAGE</h3>
 			<div className="Language__content">
 				<div className="Language__item">
-					<p>Spanish</p>
+					<small>Spanish</small>
 					<Circle progress={98} />
 				</div>
 				<div className="Language__item">
-					<p>English</p>
+					<small>English</small>
 					<Circle progress={45} />
 				</div>
 			</div>
