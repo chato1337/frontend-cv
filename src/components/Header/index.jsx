@@ -13,7 +13,7 @@ export const Header = () => {
 				<p>FULLSTACK WEB DEVELOPER</p>
 			</div>
 			<div className="Header__image">
-				<img src={photoCV} alt="profile image" />
+				<img src={photoCV} alt="Didider Cuetia" />
 			</div>
 			<div className="Header__info">
 				<div className="Header__info-item">
@@ -32,7 +32,10 @@ export const Header = () => {
 					<div className="header-icon">
 						<MdGpsFixed />
 					</div>
-					<p>🇨🇴 Corinto - Cauca</p>
+					<p>
+						<span role="img" aria-label="col flag">🇨🇴 </span>
+						Corinto - Cauca
+					</p>
 				</div>
 			</div>
 		</div>

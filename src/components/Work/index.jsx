@@ -7,6 +7,14 @@ const Work = () => {
 			<h3>WORK EXPERIENCE</h3>
 			<div className="Work__content">
 				<div className="year">
+					<strong>2021</strong>
+				</div>
+				<div className="description">
+					<p>JR Software Develeper</p>
+					<strong>Appspring - Colombia</strong>
+					<p>Develop software solutions in back and front technologies</p>
+				</div>
+				<div className="year">
 					<strong>2020</strong>
 				</div>
 				<div className="description">
@@ -24,7 +32,7 @@ const Work = () => {
 					<strong>Education Institutional Carrizales</strong>
 					<p>High school teacher in the area of computer science</p>
 				</div>
-				<div className="year">
+				{/* <div className="year">
 					<strong>2017</strong>
 				</div>
 				<div className="description">
@@ -33,17 +41,6 @@ const Work = () => {
 					<p>
 						Data manager of the information system CUENTAME of the ICBF for
 						operator of the agreement.
-					</p>
-				</div>
-				<div className="year">
-					<strong>2015</strong>
-				</div>
-				{/* <div className="description">
-					<p>Population database administrator</p>
-					<strong>ACIN</strong>
-					<p>
-						Manage, purify and update the population database of the north of
-						Cauca
 					</p>
 				</div> */}
 			</div>

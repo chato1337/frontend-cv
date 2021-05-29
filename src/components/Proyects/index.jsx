@@ -28,7 +28,7 @@ const Proyects = () => {
 				</div>
 			</div>
 			<small>
-				See my proyects in <a href="#">Github</a>
+				See my proyects in <a href="https://github.com/chato1337">Github</a>
 			</small>
 		</div>
 	);

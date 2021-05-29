@@ -1,8 +1,6 @@
 .Print-button {
-	float: right;
-	position: relative;
-	top: 0px;
-	right: 100px;
+	position: absolute;
+	right: 0;
 }
 
 @media print {

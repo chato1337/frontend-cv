@@ -10,6 +10,15 @@
 	color: $light-color;
 }
 
+.header-top {
+	background-color: $primary-color;
+	position: relative;
+	label {
+		display: block;
+		text-align: left;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.Main {
 		margin: 0 2rem 0 2rem;
@@ -34,5 +43,9 @@
 		p {
 			font-size: 12px;
 		}
+	}
+
+	.no-print {
+		display: none;
 	}
 }

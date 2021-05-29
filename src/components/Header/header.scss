@@ -10,7 +10,7 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
 	align-items: center;
-	border-top: 25px solid $primary-color;
+	// border-top: 25px solid $primary-color;
 	padding-top: 1.2rem;
 	padding-bottom: 2rem;
 	&__image {
@@ -21,6 +21,7 @@
 			border-radius: 50%;
 			height: 100%;
 			width: 100%;
+			filter: drop-shadow(0.8px 3.5px 0.25rem rgba(0, 0, 0, 0.4));
 		}
 	}
 }

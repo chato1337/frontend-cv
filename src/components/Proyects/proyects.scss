@@ -1,8 +1,19 @@
+@import "../../styles/vars.scss";
+
+.Proyects {
+	small a{
+		color: $primary-color;
+	}
+}
+
 .Proyects__items {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	div {
 		margin: 5px 8px;
+		.links {
+			color: $primary-color;
+		}
 	}
 }
 

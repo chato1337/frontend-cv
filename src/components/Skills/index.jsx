@@ -16,9 +16,9 @@ const Skills = () => {
 				<li>
 					<strong>Web Development</strong>: Html, Css, Sass, Stylus, Less
 				</li>
-				<li>
+				{/* <li>
 					<strong>DevOps</strong>: Jenkins, AWS Cloud & storge
-				</li>
+				</li> */}
 				<li>
 					<strong>O.S</strong>: MAC OSX, Linux, Windows
 				</li>
