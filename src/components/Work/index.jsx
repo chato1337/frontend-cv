@@ -6,23 +6,23 @@ const Work = () => {
 		<div className="Work content-item">
 			<h3>WORK EXPERIENCE</h3>
 			<div className="Work__content">
+			<div className="year">
+					<strong>2022</strong>
+				</div>
+				<div className="description">
+					<p>Software developer</p>
+					<strong>Softtek</strong>
+					<p>
+						Develop software solutions using spartacus (Angular) & hybris commerce
+					</p>
+				</div>
 				<div className="year">
 					<strong>2021</strong>
 				</div>
 				<div className="description">
-					<p>JR Software Develeper</p>
+					<p>MD Software Developer</p>
 					<strong>Appspring - Colombia</strong>
 					<p>Develop software solutions in back and front technologies</p>
-				</div>
-				<div className="year">
-					<strong>2020</strong>
-				</div>
-				<div className="description">
-					<p>computer consultant</p>
-					<strong>CRIC - Colombia</strong>
-					<p>
-						advise the construction of a project with the national government
-					</p>
 				</div>
 				<div className="year">
 					<strong>2019</strong>

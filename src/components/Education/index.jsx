@@ -7,6 +7,16 @@ const Education = () => {
 			<h3>EDUCATION</h3>
 			<div className="Education__content">
 				<div className="year">
+					<strong>2022</strong>
+				</div>
+				<div className="description">
+					<p>
+						systems engineering <small>(on curse)</small>
+					</p>
+
+					<strong>UNAD</strong>
+				</div>
+				<div className="year">
 					<strong>2020</strong>
 				</div>
 				<div className="description">
@@ -18,16 +28,7 @@ const Education = () => {
 						technology sector
 					</small>
 				</div>
-				<div className="year">
-					<strong>2020</strong>
-				</div>
-				<div className="description">
-					<p>
-						systems engineering <small>(on curse)</small>
-					</p>
 
-					<strong>UNAD</strong>
-				</div>
 				<div className="year">
 					<strong>2017</strong>
 				</div>
