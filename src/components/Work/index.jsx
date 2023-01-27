@@ -7,7 +7,7 @@ const Work = () => {
 			<h3>WORK EXPERIENCE</h3>
 			<div className="Work__content">
 			<div className="year">
-					<strong>2022</strong>
+					<strong>2023</strong>
 				</div>
 				<div className="description">
 					<p>Software developer</p>

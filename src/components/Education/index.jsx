@@ -7,7 +7,7 @@ const Education = () => {
 			<h3>EDUCATION</h3>
 			<div className="Education__content">
 				<div className="year">
-					<strong>2022</strong>
+					<strong>2023</strong>
 				</div>
 				<div className="description">
 					<p>

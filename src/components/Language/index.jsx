@@ -13,7 +13,7 @@ const Language = () => {
 				</div>
 				<div className="Language__item">
 					<small>English</small>
-					<Circle progress={65} />
+					<Circle progress={75} />
 				</div>
 			</div>
 		</div>
