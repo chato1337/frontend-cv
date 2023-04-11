@@ -20,7 +20,7 @@ export const Header = () => {
 					<div className="header-icon">
 						<FiPhoneIncoming />
 					</div>
-					<p>+57 3127330437</p>
+					<p>+57 3127330437 - +57 3242800880</p>
 				</div>
 				<div className="Header__info-item">
 					<div className="header-icon">
