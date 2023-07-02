@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/frontend-cv/static/css/main.c23f5227.chunk.css",
-    "main.js": "/frontend-cv/static/js/main.b893afda.chunk.js",
-    "main.js.map": "/frontend-cv/static/js/main.b893afda.chunk.js.map",
-    "runtime-main.js": "/frontend-cv/static/js/runtime-main.4658e815.js",
-    "runtime-main.js.map": "/frontend-cv/static/js/runtime-main.4658e815.js.map",
-    "static/js/2.9f497e5b.chunk.js": "/frontend-cv/static/js/2.9f497e5b.chunk.js",
-    "static/js/2.9f497e5b.chunk.js.map": "/frontend-cv/static/js/2.9f497e5b.chunk.js.map",
+    "main.css": "/frontend-cv/static/css/main.3167c341.chunk.css",
+    "main.js": "/frontend-cv/static/js/main.ef072e14.chunk.js",
+    "main.js.map": "/frontend-cv/static/js/main.ef072e14.chunk.js.map",
+    "runtime-main.js": "/frontend-cv/static/js/runtime-main.3d9dce9f.js",
+    "runtime-main.js.map": "/frontend-cv/static/js/runtime-main.3d9dce9f.js.map",
+    "static/js/2.a84428d9.chunk.js": "/frontend-cv/static/js/2.a84428d9.chunk.js",
+    "static/js/2.a84428d9.chunk.js.map": "/frontend-cv/static/js/2.a84428d9.chunk.js.map",
     "index.html": "/frontend-cv/index.html",
-    "precache-manifest.b8301092b474e45791cf8e1c0db13b13.js": "/frontend-cv/precache-manifest.b8301092b474e45791cf8e1c0db13b13.js",
+    "precache-manifest.363b00194c20d8e66b3819554f1d90ca.js": "/frontend-cv/precache-manifest.363b00194c20d8e66b3819554f1d90ca.js",
     "service-worker.js": "/frontend-cv/service-worker.js",
-    "static/css/main.c23f5227.chunk.css.map": "/frontend-cv/static/css/main.c23f5227.chunk.css.map",
-    "static/js/2.9f497e5b.chunk.js.LICENSE.txt": "/frontend-cv/static/js/2.9f497e5b.chunk.js.LICENSE.txt",
-    "static/media/profile.jpeg": "/frontend-cv/static/media/profile.8dbcd328.jpeg"
+    "static/css/main.3167c341.chunk.css.map": "/frontend-cv/static/css/main.3167c341.chunk.css.map",
+    "static/js/2.a84428d9.chunk.js.LICENSE.txt": "/frontend-cv/static/js/2.a84428d9.chunk.js.LICENSE.txt",
+    "static/js/main.ef072e14.chunk.js.LICENSE.txt": "/frontend-cv/static/js/main.ef072e14.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4658e815.js",
-    "static/js/2.9f497e5b.chunk.js",
-    "static/css/main.c23f5227.chunk.css",
-    "static/js/main.b893afda.chunk.js"
+    "static/js/runtime-main.3d9dce9f.js",
+    "static/js/2.a84428d9.chunk.js",
+    "static/css/main.3167c341.chunk.css",
+    "static/js/main.ef072e14.chunk.js"
   ]
 }
