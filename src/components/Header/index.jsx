@@ -44,10 +44,9 @@ export const Header = () => {
 					<div className="header-icon">
 						<MdGpsFixed />
 					</div>
-					<p>
-						<span role="img" aria-label="col flag">🇨🇴 </span>
-						<a className="links" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/Ft6HCHnuWuFDsfvK9">Corinto - Cauca</a>
-					</p>
+					<a className="links" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/Ft6HCHnuWuFDsfvK9">
+						<p><span role="img" aria-label="col flag">🇨🇴 </span>Corinto - Cauca</p>
+					</a>
 				</div>
 			</div>
 		</div>

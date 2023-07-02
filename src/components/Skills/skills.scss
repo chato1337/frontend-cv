@@ -9,3 +9,9 @@ ul {
 Skills ul {
 	margin-bottom: 0.5px;
 }
+
+@media print {
+	.Skills__title {
+		font-size: 12px;
+	}
+}
