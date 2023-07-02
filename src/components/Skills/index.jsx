@@ -26,7 +26,7 @@ const Skills = () => {
 			<ul>
 				{
 					skills.map(skill => (
-						<li>
+						<li key={skill.$id}>
 							<strong>{skill.role}</strong>: {skill.stack}
 						</li>
 					))

@@ -28,6 +28,7 @@ export default function Main({ children }) {
 								}}
 								role="img"
 								aria-label="moon"
+								className="no-print"
 							>
 								🌛
 							</span>
@@ -40,6 +41,7 @@ export default function Main({ children }) {
 									display: "flex",
 									justifyContent: "center",
 								}}
+								className="no-print"
 							>
 								☀️
 							</span>
