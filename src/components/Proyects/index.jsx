@@ -1,34 +1,30 @@
 import React from "react";
-import "./proyects.scss";
+import "./proyects.css";
+import data from "../../data.json";
 
 const Proyects = () => {
+	const { projects } = data
 	return (
 		<div className="content-item Proyects">
-			<h3>PROYECTS</h3>
+			<h3>{ projects.title }</h3>
 			<div className="Proyects__items">
-				<div>
-					<strong>IdealBuy</strong>
-					<br />
-					<i>Smart buy app</i>
-					<p>Frontend Developer</p>
-					<p>React, PostgreSql, Django</p>
-					<a className="links" href="https://idealbuy.vercel.app/">
-						https://idealbuy.vercel.app/
-					</a>
-				</div>
-				<div>
-					<strong>Pandar</strong>
-					<br />
-					<i>Smart travel app</i>
-					<p>Frontend Developer</p>
-					<p>NextJS, MongoDB, ReactHooks</p>
-					<a className="links" href="https://pandar.vercel.app/">
-						https://pandar.vercel.app/
-					</a>
-				</div>
+				{
+					projects.content.map((proyect) => (
+						<div key={proyect.name}>
+							<strong>{proyect.name}</strong>
+							<br />
+							<i>{proyect.description}</i>
+							<p>{proyect.role}</p>
+							<p>{proyect.tech}</p>
+							<a className="links" href={proyect.link}>
+								{proyect.link}
+							</a>
+						</div>
+					))
+				}
 			</div>
 			<small>
-				See my proyects in <a href="https://github.com/chato1337">Github</a>
+				See my proyects in <a href={projects.git_address}>{projects.git_name}</a>
 			</small>
 		</div>
 	);

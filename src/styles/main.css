@@ -1,0 +1,67 @@
+/* Definición de variables CSS */
+:root {
+	--primary-color: #5c8e75;
+	--dark-color: #0c1711;
+	--variant-color: #5f605f;
+	--gray-color: #9fa0a0;
+	--light-color: #dee0df;
+	--white-color: white;
+	--focus-color: #4c9aff;
+  }
+  
+  .Main {
+	background-color: var(--white-color);
+	margin: 0 6rem;
+  }
+  
+  .Dark {
+	background-color: var(--dark-color);
+	color: var(--light-color);
+  }
+  
+  .header-top {
+	background-color: var(--primary-color);
+	position: relative;
+  }
+  
+  .header-top label {
+	display: block;
+	text-align: left;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+	.Main {
+	  margin: 0 2rem;
+	}
+  }
+  
+  @media screen and (max-width: 425px) {
+	.Main {
+	  margin: 0;
+	}
+  }
+  
+  @media screen and (max-width: 375px) {
+	.Main {
+	  margin: 0;
+	}
+  }
+  
+  @media print {
+	.Main {
+	  margin: 0;
+	}
+  
+	.Main p {
+	  font-size: 12px;
+	}
+  
+	.no-print {
+	  display: none;
+	}
+  
+	a {
+	  color: black;
+	}
+  }

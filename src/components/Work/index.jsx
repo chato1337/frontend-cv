@@ -1,48 +1,29 @@
 import React from "react";
-import "./work.scss";
+import "./work.css";
+import data from "../../data.json";
 
 const Work = () => {
+	const { jobs } = data;
 	return (
 		<div className="Work content-item">
-			<h3>WORK EXPERIENCE</h3>
+			<h3>{jobs.title}</h3>
 			<div className="Work__content">
-			<div className="year">
-					<strong>2023</strong>
-				</div>
-				<div className="description">
-					<p>Software developer</p>
-					<strong>Softtek</strong>
-					<p>
-						Develop software solutions using spartacus (Angular) & hybris commerce
-					</p>
-				</div>
-				<div className="year">
-					<strong>2021</strong>
-				</div>
-				<div className="description">
-					<p>MD Software Developer</p>
-					<strong>Appspring - Colombia</strong>
-					<p>Develop software solutions in back and front technologies</p>
-				</div>
-				<div className="year">
-					<strong>2019</strong>
-				</div>
-				<div className="description">
-					<p>Teacher</p>
-					<strong>Education Institutional Carrizales</strong>
-					<p>High school teacher in the area of computer science</p>
-				</div>
-				{/* <div className="year">
-					<strong>2017</strong>
-				</div>
-				<div className="description">
-					<p>Data Manager</p>
-					<strong>ICBF</strong>
-					<p>
-						Data manager of the information system CUENTAME of the ICBF for
-						operator of the agreement.
-					</p>
-				</div> */}
+				{jobs.content.map((job) => (
+					<React.Fragment key={job.title}>
+						<div className="year">
+							<strong>{job.year}</strong>
+						</div>
+						<div className="description">
+							{job.content.map((item) => (
+								<>
+									<p>{item.title}</p>
+									<strong>{item.company}</strong>
+									<p>{item.description}</p>
+								</>
+							))}
+						</div>
+					</React.Fragment>
+				))}
 			</div>
 		</div>
 	);

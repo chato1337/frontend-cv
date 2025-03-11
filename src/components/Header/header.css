@@ -1,0 +1,105 @@
+/* Definición de variables CSS */
+:root {
+	--primary-color: #5c8e75;
+	--dark-color: #0c1711;
+	--variant-color: #5f605f;
+	--gray-color: #9fa0a0;
+	--light-color: #dee0df;
+	--white-color: white;
+	--focus-color: #4c9aff;
+  }
+  
+  .Header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	align-items: center;
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
+  }
+  
+  .Header__name h1 {
+	font-size: 2.5rem;
+  }
+  
+  .Header__image {
+	height: 160px;
+	width: 160px;
+	justify-self: center;
+  }
+  
+  .Header__image img {
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+	filter: drop-shadow(0.8px 3.5px 0.25rem rgba(0, 0, 0, 0.4));
+  }
+  
+  .Header__info-item {
+	display: flex;
+	align-items: center;
+	padding-top: 8px;
+  }
+  
+  .header-icon {
+	background-color: var(--primary-color);
+	color: var(--white-color);
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+	.Header {
+	  text-align: center;
+	}
+  
+	.Header__name h1 {
+	  font-size: 2rem;
+	}
+  }
+  
+  @media screen and (max-width: 425px) {
+	.Header {
+	  display: block;
+	}
+  
+	.Header__image {
+	  margin: 8px auto;
+	}
+  
+	.Header__info {
+	  margin-left: 25%;
+	}
+  }
+  
+  @media screen and (max-width: 375px) {
+	.Header {
+	  display: block;
+	}
+  
+	.Header__image {
+	  margin: 8px auto;
+	}
+  
+	.Header__info {
+	  margin-left: 25%;
+	}
+  }
+  
+  @media print {
+	.Header {
+	  padding-top: 5px;
+	  padding-bottom: 2px;
+	}
+  
+	.Header__info-item .links {
+	  color: var(--dark-color);
+	  text-decoration: none;
+	}
+  }

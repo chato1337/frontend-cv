@@ -1,0 +1,40 @@
+/* Definición de variables CSS */
+:root {
+	--primary-color: #5c8e75;
+	--dark-color: #0c1711;
+	--variant-color: #5f605f;
+	--gray-color: #9fa0a0;
+	--light-color: #dee0df;
+	--white-color: white;
+	--focus-color: #4c9aff;
+  }
+  
+  .Proyects small a {
+	color: var(--primary-color);
+  }
+  
+  .Proyects__items {
+	display: grid;
+	grid-template-columns: 50% 50%;
+  }
+  
+  .Proyects__items div {
+	margin: 5px 8px;
+  }
+  
+  .Proyects__items div .links {
+	color: var(--primary-color);
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+	.Proyects__items {
+	  display: block;
+	}
+  }
+  
+  @media print {
+	.links {
+	  font-size: 8px;
+	}
+  }

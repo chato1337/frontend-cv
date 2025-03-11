@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Switch from "react-switch"
 import PrintButton from "../components/PrintButton";
 
-import "../styles/main.scss";
+import "../styles/main.css";
 
 export default function Main({ children }) {
 	const [mode, setMode] = useState(true);

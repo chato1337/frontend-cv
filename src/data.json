@@ -1,0 +1,158 @@
+{
+	"profile": {
+		"fullname": "DIDIER CUETIA",
+		"role": "FullStack Software Developer",
+		"image": "https://avatars.githubusercontent.com/u/100000000?v=4",
+		"phone1": "+57 324 280 0880",
+		"phone2": "+57 312 733 0437",
+		"email": "chato1337@gmail.com",
+		"address": "Corinto - Cauca"
+	},
+	"about": {
+		"title": "ABOUT ME",
+		"content": "Passionate about developing, teaching, learning, and creating computertools that contribute to the construction of a better society. Proficient in modern JavaScript frameworks and libraries, and adept at building robust and scalable applications. Extensive knowledge of front-end technologies such as HTML, CSS, and JavaScript/Typescript, combined with expertise in backend development using Node.js, Django Rest Framework & Laravel. Committed to staying updated with industry trends and continuously expanding skill set to deliver high-quality solutions."
+	},
+	"education": {
+		"title": "EDUCATION",
+		"content": [
+            {
+                "title": "Systems Engineering (On curse)",
+                "year": "2025",
+                "school": "UNAD",
+                "description": ""
+            },
+			{
+				"title": "Technologist Development Sytems",
+				"year": "2024",
+				"school": "SENA",
+				"description": "Technologist in Analisys and Development of Information Systems"
+			},
+            {
+                "title": "Full Stack Javascript Developer",
+                "year": "2020",
+                "school": "Platzi",
+                "description": "High performance program focused enhancing skills for IT sector"
+            },
+            {
+                "title": "Systems Technique",
+                "year": "2016",
+                "school": "ITGEM",
+                "description": "Diagnosis, maintenance and repair computers Hardware & software"
+            }
+		]
+	},
+	"language": {
+		"title": "LANGUAGE",
+		"content": [
+			{
+				"title": "SPANISH (Native)",
+				"level": 100
+			},
+			{
+				"title": "ENGLISH (convesational)",
+				"level": 75
+			}
+		]
+	},
+	"projects": {
+		"title": "PROJECTS",
+		"git_address": "https://github.com/chato1337",
+		"git_name": "Github",
+		"content": [
+			{
+				"title": "IdealBuy",
+				"description": "Smart buy app",
+				"link": "https://idealbuy.vercel.app/",
+				"role": "Frontend Developer",
+				"stack": "React, PostgreSql, Django"
+			},
+			{
+				"title": "Pandar",
+				"description": "Smart travel app",
+				"link": "https://idealbuy.vercel.app/",
+				"role": "Frontend Developer",
+				"stack": "https://pandar.vercel.app/"
+			}
+		]
+	},
+	"skills": {
+		"title": "SKILLS",
+		"content": [
+			{
+				"role": "Frontend Developer",
+				"stack": "ReactJS, Angular, Typescript, Rxjs"
+			},
+			{
+				"role": "Backend Developer",
+				"stack": "NodeJS, NestJs, Django, Laravel, Django Rest Framework"
+			},
+			{
+				"role": "Database",
+				"stack": "PostgreSql, MySQL, MongoDB, Redis"
+			},
+			{
+				"role": "DevSecOps",
+				"stack": "Docker, Docker-compose, Fluid-attacks"
+			},
+			{
+				"role": "Testing",
+				"stack": "Jest, Karma"
+			}
+		]
+	},
+	"jobs": {
+		"title": "WORK EXPERIENCE",
+		"content": [
+			{
+                "year": "2025",
+				"content": [
+					{
+						"title": "Software Developer",
+						"company": "Experimentality Labs - 🇨🇴",
+						"year": "2024 - 2025",
+						"description": "Fullstack developer, responsible for developing and maintaining the company's web applications. VTEX, using blockchain & MERN stack"
+					},
+					{
+						"title": "Frontend Developer",
+						"company": "Fast Dolphin - 🇲🇽",
+						"year": "2024",
+						"description": "Responsible for migrate source code to Typescript"
+					}
+				]
+			},
+			{
+                "year": "2024",
+				"content": [
+					{
+						"title": "Senior Developer",
+						"company": "Imagine Apps - 🇨🇴",
+						"year": "2024",
+						"description": "Integrate data injestion microservice & analitys projects using Fast Api"
+					}
+				]
+			},
+			{
+                "year": "2023",
+				"content": [
+					{
+						"title": "Software Developer",
+						"company": "Softtek - 🇲🇽",
+						"year": "2023",
+						"description": "Develop software solutions using spartacus (Angular) & hybris commerce"
+					}
+				]
+			},
+			{
+                "year": "2021",
+				"content": [
+					{
+						"title": "MD Software Developer",
+						"company": "Appspring - 🇨🇴",
+						"year": "2021",
+						"description": "Develop & Maintain ecomerce, crm projects"
+					}
+				]
+			}
+		]
+	}
+}

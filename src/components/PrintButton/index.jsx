@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillPrinter } from "react-icons/ai";
-import "./printButton.scss";
+import "./printButton.css";
 
 const PrintButton = () => {
 	return (

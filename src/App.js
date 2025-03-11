@@ -7,8 +7,8 @@ import Work from "./components/Work";
 import Education from "./components/Education";
 import Language from "./components/Language";
 import Proyects from "./components/Proyects";
-import "./styles/vars.scss";
-import "./styles/styles.scss";
+import "./styles/vars.css";
+import "./styles/styles.css";
 
 function App() {
 	return (

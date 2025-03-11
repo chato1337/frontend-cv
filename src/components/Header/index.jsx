@@ -3,17 +3,20 @@ import { FiPhoneIncoming } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdGpsFixed } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
-import "./header.scss";
+import "./header.css";
+import data from "../../data.json"
+import photoCV from "../../assets/img/profile.jpeg";
 
 export const Header = () => {
+	const { profile } = data
 	return (
 		<div className="Header">
 			<div className="Header__name">
-				<h1>DIDIER CUETIA</h1>
-				<p>FULLSTACK SOFTWARE DEVELOPER</p>
+				<h1>{ profile.fullname }</h1>
+				<p>{ profile.role }</p>
 			</div>
 			<div className="Header__image">
-				<img src="https://chatuz.site/v1/storage/buckets/64a0ddb0a9b7b8ff5d63/files/64a0eb934471505fd138/view?project=649f9bb69d447d142974&mode=admin" alt="Didider Cuetia" />
+			<img src={photoCV} alt="profile image" />
 			</div>
 			<div className="Header__info">
 				<div className="Header__info-item">
@@ -21,7 +24,7 @@ export const Header = () => {
 						<FiPhoneIncoming />
 					</div>
 					<a className="links" href="tel:+573242800880">
-						<p>+57 3242800880</p>
+						<p>{ profile.phone1 }</p>
 					</a>
 				</div>
 				<div className="Header__info-item">
@@ -29,7 +32,7 @@ export const Header = () => {
 						<BsWhatsapp />
 					</div>
 					<a className="links" href="https://wa.me/573127330437" target="_blank" rel="noopener noreferrer">
-						<p>+57 3127330437</p>
+						<p>{ profile.phone2 }</p>
 					</a>
 				</div>
 				<div className="Header__info-item">
@@ -37,7 +40,7 @@ export const Header = () => {
 						<HiOutlineMail />
 					</div>
 					<a className="links" href="mailto:chato1337@gmail.com">
-						<p>chato1337@gmail.com</p>
+						<p>{ profile.email }</p>
 					</a>
 				</div>
 				<div className="Header__info-item">
@@ -45,7 +48,7 @@ export const Header = () => {
 						<MdGpsFixed />
 					</div>
 					<a className="links" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/Ft6HCHnuWuFDsfvK9">
-						<p><span role="img" aria-label="col flag">🇨🇴 </span>Corinto - Cauca</p>
+						<p><span role="img" aria-label="col flag">🇨🇴 </span>{ profile.address }</p>
 					</a>
 				</div>
 			</div>
